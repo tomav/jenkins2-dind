@@ -1,6 +1,6 @@
 # Jenkins2-DinD (Docker in Docker)
 
-Jenkins2 image with built-in `docker` and `docker-compose` executables.
+Jenkins2 image with built-in `docker`, `docker-compose` and `make` executables.
 
 ## Usage
 
