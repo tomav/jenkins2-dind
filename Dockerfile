@@ -1,4 +1,4 @@
-FROM jenkinsci/jenkins:2.0-beta-1
+FROM jenkinsci/jenkins:2.0-rc-1
 USER root
 RUN apt-get update && apt-get install -y make imagemagick && apt-get autoclean && apt-get clean && apt-get autoremove
 RUN curl -fsSL https://get.docker.com/ | sh
